@@ -1,0 +1,20 @@
+
+<html>
+<head><title>html</title></head>
+<body bgcolor="pink" topmargin=50 leftmargin=50>
+<table border=5 bordercolor="green" height="500" width="500">
+<tr>
+<th>S.no</th><th>Name</th><th>Grade</th>
+</tr>
+<tr align="right">
+<td>1</td><td>Ram</td><td>A</td>
+</tr>
+<tr align="center">
+<td>2</td><td>Sham</td><td>A+</td>
+</tr>
+<tr>
+<td>3</td><td>Radha</td><td>A</td>
+</tr>
+</table>
+</body>
+</html>
