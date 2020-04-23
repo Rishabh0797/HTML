@@ -1,0 +1,44 @@
+#para{
+text-align:center;
+font-family:Comic Sans MS;
+color:red;
+font-size:60px;
+}
+.demo1{
+background-color:#cccccc;
+}
+.demo2{
+font-family:cursive;
+text-align:justify;
+}
+ul{
+color: blue;
+font-family:arial;}
+span{
+font-family:verdana, Helvetica, sans-serif;
+font-size:150%;
+color:yellow;}
+img{
+align:middle;
+height:auto;
+width:80%;
+margin-left:70px;
+margin-right:40px;
+border:3px solid red;}
+.demo3{
+width:100%;
+border:2px solid black;
+border-collapse:collapse;
+}
+tr,td,th{
+height:100px;
+border:2px solid black;
+font-size:150%
+}
+th{
+background-color: green;
+font-family:cursive;}
+tr,td{
+background-color:white;
+padding:50px;
+}
