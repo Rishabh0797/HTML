@@ -1,0 +1,16 @@
+<html>
+    <head><title>more on select element int html forms</title></head>
+<body>
+Use the<b>size</b>  attribute to specify the number of visible values:
+<br><form>
+    Choose your car:
+<select name="cars" size="3" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+<input type="submit" value="submit"></form>
+<br>Use the <b>multiple</b> attribute to allow the user to select more than one value:
+</body>
+</html>
