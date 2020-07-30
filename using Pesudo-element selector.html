@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head><title>using Pesudo-element selector</title>
+<style>
+::selection
+{
+background-color:Darkcyan;
+color:yellow;
+}
+p.para1::first-line {
+  color: red;
+  font-variant: small-caps;
+}
+p.para2::first-letter {
+  color:blue;
+  font-size: xx-large;
+  font-family:cursive;
+}
+</style>
+</head>
+<body>
+<h1>Using (first-line ) selector</h1>
+<p class="para1">This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.
+</p>
+<h1>Using (first-letter ) selector</h1>
+<p class="para2">This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.
+This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.
+</p>
+<br><h1>using (:: selecton) selector</h1>
+<p>NOTE : When you select any text it appear different</p>
+</body>
+</html>
