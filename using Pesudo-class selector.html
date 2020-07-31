@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head><title>using Pesudo-class selector</title>
+<style>
+p:hover:nth-child(even){
+background-color:yellow;
+color:red;
+}
+
+p.para1{
+background-color:Darkcyan;
+color:white;
+font-size:150%;
+display:none;
+padding:20px;
+text-align:center;
+}
+
+div.para1:hover p {
+  display: block;
+}
+</style>
+</head>
+<body> 
+<h1>hover on 2 paragraph</h1>
+<div>
+<p>This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+<p>This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+<p>This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+</div>
+
+<div class="para1">
+<h1>Hover here to view MAGIC</h1>
+<p class="para1">This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+<p class="para1">This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+<p class="para1">This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.
+This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.This is a some text.</p>
+</div>
+</body>
+</html>
