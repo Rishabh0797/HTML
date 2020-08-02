@@ -1,0 +1,87 @@
+<!doctype html>
+<head>
+<style>
+::selection{
+color:red;
+background-color:yellow;
+}
+table {
+  border-collapse: collapse;
+  width:100%;
+ caption-side:bottom;
+}
+table, td, th {
+  border: 1px solid black; 
+  height: 70px;
+}
+td{
+text-align:center;
+padding: 15px;
+border-bottom: 5px solid cyan;
+font-size:150%;
+}
+th{
+font-size:200%;
+padding: 15px;
+border: 5px solid red;
+background-color:red;
+color:white;
+
+}
+tr:nth-child(even){
+background-color:rgba(180,180,180,0.5);
+}
+tr:hover{
+background-color:DarkCyan;
+}
+span{
+font-size:30px;
+color:red;
+font-family:cursive;
+}
+
+</style>
+</head>
+<body>
+ <table>
+ <caption>EMPLOYEE TABLE 1.1</caption>
+   <tr>
+	    <th>Sr no.</th>
+	    <th>First Name</th>
+		<th>Last Name</th>
+		<th>Age</th>
+		<th>Employee ID</th>
+   </tr>
+   <tr>
+        <td>1</td>
+		<td>Kapil</td>
+		<td>Sharma</td>
+		<td>34</td>
+		<td>17383</td>
+   </tr>
+    <tr>
+        <td>2</td>
+		<td>Sham</td>
+		<td>Kumar</td>
+		<td>43</td>
+		<td>32423</td>
+   </tr>
+    <tr>
+        <td>3</td>
+		<td>Shiv</td>
+		<td>Patel</td>
+		<td>29</td>
+		<td>24234</td>
+   </tr>
+    <tr>
+        <td>4</td>
+		<td>Ajay</td>
+		<td>Gupta</td>
+		<td>39</td>
+		<td>56745</td>
+   </tr>
+   </table>
+   <br>
+   <span>N</span>ote: Information about Company Employee.
+</body>
+</html>
